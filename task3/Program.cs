@@ -5,7 +5,7 @@ void PrintMatrix(double[,] arg)
     {
         for (int j =0; j < arg.GetLength(1); j++)
         {
-            Console.Write($"{arg[i,j]} ");
+            Console.Write($"{arg[i,j]}  ");
         }
         Console.WriteLine();
     }
@@ -60,7 +60,7 @@ void DeleteMin(double[,] arg)
             {
                 newarg[i,j] = arg[i + 1,j + 1];
             }
-            Console.Write($"{newarg[i,j]} ");
+            Console.Write($"{newarg[i,j]}  ");
         }
         Console.WriteLine();
     }
